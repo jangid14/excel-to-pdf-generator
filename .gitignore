@@ -1,0 +1,34 @@
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Generated PDFs
+output/*.pdf
+
+# Logs
+logs/*.log
+
+# Excel input files containing potentially sensitive data
+input/*.xlsx
+input/*.xls
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
